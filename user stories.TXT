@@ -1,0 +1,26 @@
+1.Jako student chciałbym dostawać dzwiekowe powiadomienia o nadchodzacych wykładach
+2.Jako student chce dodania opcji przypomnij haslo i email przy logowaniu do usosa
+3.Jako student chce aplikacji mobilnej która ułatwi dostęp do usosa
+4.Jako student chce opcji powiększenia liter dla niedowidzących
+5.Jako student chce możliwości powiązania konta usos z kontem prywatnym na potrzeby łatwiejszego odzyskania hasła 
+
+User Scenario:
+Aktorzy:
+Student
+wykładowca
+
+Warunki początkowe:
+-Student ma wgląd w swoje oceny
+-Wykładowca dodaje oceny do systemu usos
+Zdarzenie inicjujące:
+Wykładowca przeprowadza test i musi wprowadzić oceny do USOSweb.
+
+Przebieg główny:
+1.Wykładowca ocenia testy
+2.Wykładowca umieszcza oceny na USOSweb
+3.Platforma ma zapisane w swoich danych oceny każdego studenta
+4.Studenci logują sie do swoich kont
+5.Studenci mając wgląd do swoich ocen sowiadują sie o nich
+
+Warunki końcowe:
+Studenci są poinformowani o ocenach z danego kolokwium
